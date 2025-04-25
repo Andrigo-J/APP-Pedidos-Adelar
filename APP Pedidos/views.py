@@ -5,7 +5,7 @@ from flask import render_template
 def home():
     return render_template('index.html')
 
-@app.route('/pedidos.html')
+@app.route('/blog')
 def pedidos():
-    return render_template('pedidos.html')
+    return render_template('blog.html')
 
