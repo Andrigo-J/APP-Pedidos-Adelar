@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Envie seus pedidos aqui!</h1>
+
+        <nav>
+            <ul>
+                <li>Home</li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <form action="" method="post">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="nome" id="nome" required></td>
+                        <td><input type="number" name="quantidade" id="qtd" required></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><button type="button" onclick="addRow()">Adicionar Produto</button></td>
+                    </tr>
+            </table>
+
+            <div class="addItens">
+                
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../static/js/script.js"></script>
+</body>
+
+</html>

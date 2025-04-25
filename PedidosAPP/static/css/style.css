@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    min-height: 97vh;
+    min-width: 100%;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+h1{
+    height: calc(10% + 150px);
+    text-align: center;
+    margin-top: 20px;
+}
